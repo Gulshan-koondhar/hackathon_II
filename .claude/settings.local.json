@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(rm -rf src/ tests/ pyproject.toml uv.lock main.py)",
+      "Bash(powershell -Command:*)",
+      "Bash(env SPECIFY_FEATURE=\"001-in-memory-todo-cli\" powershell -Command \".specify/scripts/powershell/setup-plan.ps1 -Json\")",
+      "Bash(env SPECIFY_FEATURE=\"001-in-memory-todo-cli\" powershell -Command \"New-Item -ItemType File -Path E:\\\\Gulshan\\\\specs\\\\001-in-memory-todo-cli\\\\spec.md -Force\")"
+    ]
+  }
+}
